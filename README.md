@@ -1,2 +1,2 @@
 # conchiruiz.github.io
-PARA SUBIR FICHEROS DESDE BRACKETS
+Este es mi portfolio web
