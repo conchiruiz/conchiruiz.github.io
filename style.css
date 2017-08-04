@@ -55,8 +55,9 @@ a{
     text-decoration: none;
     
 }
-img a:hover{
-    color: blueviolet;
+
+.trabajos:hover{
+        background-color: burlywood;
 }
 h3{
     text-align: center;
