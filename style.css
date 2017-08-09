@@ -63,22 +63,30 @@ h3{
     text-align: center;
     color:darkolivegreen;
 }
-
 #menu{
     position: fixed;
-    width: 80px;
+    width: 90px;
     right: 0;
-    top: 150px;
-
+    top: 175px;
+    vertical-align: middle;
 }
 
 #menu li{
-    list-style-type: none;
-    width: 35px;
-    height: 35px;
-    text-align: center;
- 
-    
+ list-style-type: none;
+  
+}
+#menu li i{
+    font-size: 1.5em;
+}
+
+#menu ul .fa{
+      
+    margin: 0.3em;    
+    padding: 0.5em;
+    background-color: peru;
+    border-radius: 50%;
+   
+   
 }
 
 nav ul a{
