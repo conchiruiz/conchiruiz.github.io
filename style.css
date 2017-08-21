@@ -69,10 +69,11 @@ h3{
     color:darkolivegreen;
 }
 #menu{
-    position: fixed;
     width: 250px;
+    position: fixed;
     bottom: 0;
-    left: 1000px;
+    left: 950px;
+  
     
 
 }
