@@ -62,7 +62,7 @@ a{
 }
 
 .trabajos:hover{
-        background-color: burlywood;
+    background-color: burlywood;
 }
 h3{
     text-align: center;
@@ -70,14 +70,19 @@ h3{
 }
 #menu{
     position: fixed;
-    width: 90px;
-    right: 0;
-    top: 175px;
-    vertical-align: middle;
+    width: 250px;
+    bottom: 0;
+    left: 1000px;
+    
+
 }
+      
 
 #menu li{
- list-style-type: none;
+    list-style-type: none;
+    display: inline-block;
+   
+}
   
 }
 #menu li i{
@@ -90,6 +95,7 @@ h3{
     padding: 0.5em;
     background-color: peru;
     border-radius: 50%;
+   
    
    
 }
@@ -105,10 +111,27 @@ nav ul a{
 
 footer{
     margin-top: 80px;
-    text-align: center;
+    right: 0;
     color: peru;
     font-weight: bold;
     text-shadow: 2px 3px 3px;
     font-size: 20px;
     
 }
+
+@media (max-width:500px){
+          
+    h1{
+        text-align: center;
+    }
+    .container{
+        margin: 0 auto;
+   
+    }
+     }
+    
+ 
+     
+    
+        
+    
